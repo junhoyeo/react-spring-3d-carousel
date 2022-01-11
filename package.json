@@ -1,11 +1,11 @@
 {
-  "name": "react-spring-3d-carousel",
-  "version": "1.2.1",
+  "name": "@junhoyeo/react-spring-3d-carousel",
+  "version": "1.0.0",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gutiguy/react-spring-3d-carousel"
   },
-  "description": "A 3D Carousel component for images built with React and utilizing react-spring for controlling slide transitions.",
+  "description": "`translate3d` Fork of gutiguy/react-spring-3d-carousel",
   "main": "dist/bundle.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -16,7 +16,10 @@
     "carousel",
     "react"
   ],
-  "author": "Guy Gutman<contact@gutiguy.com>",
+  "author": {
+    "name": "Junho Yeo",
+    "email": "i@junho.io"
+  },
   "license": "MIT",
   "dependencies": {
     "@emotion/core": "^10.0.7",

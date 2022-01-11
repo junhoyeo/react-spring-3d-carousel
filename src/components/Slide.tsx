@@ -58,7 +58,7 @@ export default function Slide({
   return (
     <Spring
       to={{
-        transform: `translateY(-50%) translateX(${translateX}%) scale(${distanceFactor})`,
+        transform: `translate3d(${translateX}%, -50%, 0) scale(${distanceFactor})`,
         left: `${
           offsetRadius === 0 ? 50 : 50 + (offsetFromCenter * 50) / offsetRadius
         }%`,
